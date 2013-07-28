@@ -4,6 +4,7 @@ import sys
 
 #sys.path.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR']))
 sys.path.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'chochek_api', 'chochek_api'))
+sys.path.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'chochek_api'))
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'chochek_api.settings'
 
